@@ -1,5 +1,5 @@
 # Desenvolvendo o Dio Bank
-Cauan baseado no projeto de Nathally Souza
+Desafios cumpridos por Cauan baseado no projeto de Nathally Souza
 
 #### Projeto desenvolvido com conceitos básicos de typescript
 
