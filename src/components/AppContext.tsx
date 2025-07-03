@@ -16,12 +16,14 @@ export const AppContextProvider = ({ children }: any) => {
 
     useEffect(() => {
       if(storage){
-        const { login } = JSON.parse(storage)
-        setIsLoggedIn(login)
+        const { login, email, password } = JSON.parse(storage)
+        if(email && password) {
+          setIsLoggedIn(login)
+        }
       }
     }, [])
 
-    const user = 'nathally'
+    const user = 'Joao'
   
     return (
       <AppContext.Provider value={{ user, isLoggedIn, setIsLoggedIn }}>
